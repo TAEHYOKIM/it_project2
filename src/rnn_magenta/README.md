@@ -50,7 +50,8 @@
     $ timidity {PATH} # PATH는 생성한 Midi파일의 경로를 지정해 준다.
     
     
-###  5. Result_midi File : 결과물 
+###  5. Result_midi File 
+: 결과물 
 
     -- 파일설명 : 
     
