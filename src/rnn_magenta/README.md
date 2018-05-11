@@ -29,8 +29,8 @@
     setup.txt : 마젠타 환경설정 및 설치에 대한 전반적인 설명.
 
 ###  3. Magenta_step File 
-
 : 준비된 데이터셋(Midi file)과 셋팅된  마젠타를 가지고 음악파일(Midi file)을 생성하는 방법
+    
     -- 경로 설정 
     
     $ INPUT_DIRECTORY=/home/itwill02/바탕화면/it/rnb       # 학습시킬 노래 넣어둔 파일 
