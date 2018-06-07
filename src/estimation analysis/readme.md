@@ -27,22 +27,22 @@ csv파일을 만들고, x,y 2개 값으로 나눠서 저장해 두었음
 
 
 - 아나콘도 모듈
-import io
-import os
-import sys
-import glob
-import time
-import random
-import numpy
-import pandas
+###### import io
+###### import os
+###### import sys
+###### import glob
+###### import time
+###### import random
+###### import numpy
+###### import pandas
 
 -새로 설치해야할 모듈
-import librosa
-import pydub
-import sklearn
-import google.cloud.speech
-import flask
+###### import librosa
+###### import pydub
+###### import sklearn
+###### import google.cloud.speech
+###### import flask
 
 - 파일 추가로 impot한 파일들
-import google_speech
-import main
+###### import google_speech
+###### import main
