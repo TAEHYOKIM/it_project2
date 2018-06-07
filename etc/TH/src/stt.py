@@ -151,7 +151,7 @@ def listen_print_loop(responses):
 
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
-            if re.search(r'\b(나가자|끝)\b', transcript, re.I):
+            if re.search(r'\b(나가자|끝)\b', transcript, re.I):  # 프로그램 종료구문을 '나가자' 또는 '끝'으로 설정
                 print('Exiting..')
                 break
 
@@ -162,7 +162,7 @@ def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.
     language_code = 'ko-KR'  # a BCP-47 language tag
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/Users/hbk/data/speech_key.json' # api_key
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = '/Users/hbk/data/speech_key.json'  # google api_key 경로를 적어준다
 
     client = speech.SpeechClient()
     config = types.RecognitionConfig(
