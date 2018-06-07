@@ -36,7 +36,7 @@ csv파일을 만들고, x,y 2개 값으로 나눠서 저장해 두었음
 ###### import numpy
 ###### import pandas
 
--새로 설치해야할 모듈
+- 새로 설치해야할 모듈
 ###### import librosa
 ###### import pydub
 ###### import sklearn
